@@ -1,0 +1,9 @@
+Model,Accuracy (%),Best Parameters
+SVM,86.25,"{'C': 1, 'gamma': 0.01}"
+K-NN,84.17,{'n_neighbors': 5}
+Decision Tree,87.50,{'max_depth': 3}
+Logistic Regression,86.67,{'C': 0.1}
+Random Forest,84.58,"{'max_depth': 15, 'n_estimators': 100}"
+XGBoost,85.83,"{'learning_rate': 0.1, 'n_estimators': 50}"
+AdaBoost,86.67,"{'learning_rate': 1, 'n_estimators': 50}"
+Gradient Boosting,82.92,"{'learning_rate': 0.1, 'n_estimators': 100}"
